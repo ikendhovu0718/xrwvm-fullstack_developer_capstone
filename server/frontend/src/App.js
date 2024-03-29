@@ -5,11 +5,8 @@ import Register from "./components/Register";
 function App() {
   return (
     <Routes>
-      <Route path="/login" element={<LoginPanel />} />
-    </Routes>,
-
-    <Routes>
-    <Route path="/register" element={<RegisterLayout />} />
+    <Route path="/login" element={<LoginPanel />} />
+    <Route path="/register" element={<Register />} />
   </Routes>
   );
 }
